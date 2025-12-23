@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utility.Externreportmanager"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Rengaraj_test_files.Halfday_leave_apply">
+        <methods>
+          <include name="halfdayleavetracker"/>
+          <include name="teardown"/>
+          <include name="ezhourlaunch"/>
+        </methods>
+      </class> <!-- Rengaraj_test_files.Halfday_leave_apply -->
+      <class name="Rengaraj_test_files.LeaveCancellation">
+        <methods>
+          <include name="teardown"/>
+          <include name="ezhourlaunch"/>
+          <include name="Leave_Cancellation"/>
+        </methods>
+      </class> <!-- Rengaraj_test_files.LeaveCancellation -->
+      <class name="Rengaraj_test_files.Leave_Approver_Rejected">
+        <methods>
+          <include name="teardown"/>
+          <include name="ezhourlaunch"/>
+          <include name="first_leave_approval_second_leavel_rejected"/>
+          <include name="Leave_apply_for_firstlevel_rejected_scenarieo"/>
+        </methods>
+      </class> <!-- Rengaraj_test_files.Leave_Approver_Rejected -->
+      <class name="Rengaraj_test_files.Weekend_Leave_Apply">
+        <methods>
+          <include name="Weekend_Leave_Apply_Verify"/>
+          <include name="teardown"/>
+          <include name="ezhourlaunch"/>
+        </methods>
+      </class> <!-- Rengaraj_test_files.Weekend_Leave_Apply -->
+      <class name="Rengaraj_test_files.Leavetracker_leavedays_verify">
+        <methods>
+          <include name="Leave_count_box_available_totaldays"/>
+          <include name="teardown"/>
+          <include name="ezhourlaunch"/>
+        </methods>
+      </class> <!-- Rengaraj_test_files.Leavetracker_leavedays_verify -->
+      <class name="Rengaraj_test_files.ApprovedLeaveCancel">
+        <methods>
+          <include name="Approved_Leave_cancellation"/>
+          <include name="teardown"/>
+          <include name="ezhourlaunch"/>
+          <include name="apply_leave_then_two_leavel_approved"/>
+          <include name="Manager_Approved_leave_cancellation_approved"/>
+          <include name="TL_Approved_leave_cancellation_approved"/>
+        </methods>
+      </class> <!-- Rengaraj_test_files.ApprovedLeaveCancel -->
+      <class name="Rengaraj_test_files.Loginpage">
+        <methods>
+          <include name="correct_login_test"/>
+          <include name="teardown"/>
+          <include name="ezhourlaunch"/>
+        </methods>
+      </class> <!-- Rengaraj_test_files.Loginpage -->
+      <class name="Rengaraj_test_files.Multiple_days_leave_apply">
+        <methods>
+          <include name="multipledays_leave_cancellation"/>
+          <include name="teardown"/>
+          <include name="multiple_day_leave_apply"/>
+          <include name="ezhourlaunch"/>
+        </methods>
+      </class> <!-- Rengaraj_test_files.Multiple_days_leave_apply -->
+      <class name="Rengaraj_test_files.Leavetracker_requestcount_verify">
+        <methods>
+          <include name="Leavetracker_request_count"/>
+          <include name="teardown"/>
+          <include name="ezhourlaunch"/>
+        </methods>
+      </class> <!-- Rengaraj_test_files.Leavetracker_requestcount_verify -->
+      <class name="Rengaraj_test_files.Leave_tracker">
+        <methods>
+          <include name="teardown"/>
+          <include name="ezhourlaunch"/>
+          <include name="Leave_tracker_paginaton"/>
+          <include name="leave_tracker_content"/>
+        </methods>
+      </class> <!-- Rengaraj_test_files.Leave_tracker -->
+      <class name="Rengaraj_test_files.Actionhistory_status">
+        <methods>
+          <include name="teardown"/>
+          <include name="ezhourlaunch"/>
+          <include name="action_history_status"/>
+        </methods>
+      </class> <!-- Rengaraj_test_files.Actionhistory_status -->
+      <class name="Rengaraj_test_files.Leave_myapproval_leavetype_filter">
+        <methods>
+          <include name="Myapproval_Leave_status_Filter"/>
+          <include name="Myapproval_leavetype_filter"/>
+          <include name="teardown"/>
+          <include name="ezhourlaunch"/>
+        </methods>
+      </class> <!-- Rengaraj_test_files.Leave_myapproval_leavetype_filter -->
+      <class name="Rengaraj_test_files.Apply_leavepage_text_verify">
+        <methods>
+          <include name="teardown"/>
+          <include name="ezhourlaunch"/>
+          <include name="Apply_leavepage_label_verify"/>
+        </methods>
+      </class> <!-- Rengaraj_test_files.Apply_leavepage_text_verify -->
+      <class name="Rengaraj_test_files.Available_Leave_Exced">
+        <methods>
+          <include name="sick_leave_exceed"/>
+          <include name="causal_leave_exceed"/>
+          <include name="optional_leave_exceed"/>
+          <include name="teardown"/>
+          <include name="ezhourlaunch"/>
+        </methods>
+      </class> <!-- Rengaraj_test_files.Available_Leave_Exced -->
+      <class name="Rengaraj_test_files.Double_Half_Day">
+        <methods>
+          <include name="Second_Half_Leave_cancelled"/>
+          <include name="Half_Day_Apply_Same_Date_Same_Half"/>
+          <include name="Second_Half_Sick_SameDay"/>
+          <include name="teardown"/>
+          <include name="ezhourlaunch"/>
+          <include name="First_Half_Leave_Cancelled"/>
+          <include name="Halfday_Causal_And_Sick"/>
+        </methods>
+      </class> <!-- Rengaraj_test_files.Double_Half_Day -->
+      <class name="Rengaraj_test_files.Twolevelapprovalforleave">
+        <methods>
+          <include name="teardown"/>
+          <include name="ezhourlaunch"/>
+          <include name="my_approval_action_history"/>
+          <include name="verify_approve_reject_button"/>
+        </methods>
+      </class> <!-- Rengaraj_test_files.Twolevelapprovalforleave -->
+      <class name="Rengaraj_test_files.WithoutLeaveApply_Cancel_Button">
+        <methods>
+          <include name="leave_apply_cancel_button"/>
+          <include name="teardown"/>
+          <include name="ezhourlaunch"/>
+        </methods>
+      </class> <!-- Rengaraj_test_files.WithoutLeaveApply_Cancel_Button -->
+      <class name="Rengaraj_test_files.Multi_Select_leave_Myapproval">
+        <methods>
+          <include name="Verify_Inqueue_Multi_Select_Approval"/>
+          <include name="Verify_Approved_Multi_Select_Approval"/>
+          <include name="Verify_Pending_Multi_select_myapproval"/>
+          <include name="teardown"/>
+          <include name="ezhourlaunch"/>
+          <include name="Verify_cancelled_Multi_Select_Approval"/>
+          <include name="Verify_CancellationPending_Multi_Select_Approval"/>
+          <include name="Verify_Rejected_Multi_Select_Approval"/>
+        </methods>
+      </class> <!-- Rengaraj_test_files.Multi_Select_leave_Myapproval -->
+      <class name="Rengaraj_test_files.Imagevalidation_apply_leavepage_blank">
+        <methods>
+          <include name="teardown"/>
+          <include name="applyleave_button_image"/>
+          <include name="ezhourlaunch"/>
+        </methods>
+      </class> <!-- Rengaraj_test_files.Imagevalidation_apply_leavepage_blank -->
+      <class name="Rengaraj_test_files.Leave_tracker_totalcount_verify">
+        <methods>
+          <include name="Total_request_count"/>
+          <include name="teardown"/>
+          <include name="ezhourlaunch"/>
+        </methods>
+      </class> <!-- Rengaraj_test_files.Leave_tracker_totalcount_verify -->
+      <class name="Rengaraj_test_files.Apply_leave">
+        <methods>
+          <include name="Already_Leave_apply_date"/>
+          <include name="teardown"/>
+          <include name="ezhourlaunch"/>
+          <include name="Leave_Apply"/>
+        </methods>
+      </class> <!-- Rengaraj_test_files.Apply_leave -->
+      <class name="Rengaraj_test_files.Leavedetails_comparison">
+        <methods>
+          <include name="Leavetracker_Leavedetails_comparison"/>
+          <include name="teardown"/>
+          <include name="ezhourlaunch"/>
+        </methods>
+      </class> <!-- Rengaraj_test_files.Leavedetails_comparison -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

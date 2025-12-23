@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <listeners>
+    <listener class-name="utility.Externreportmanager"></listener>
+  </listeners>
+  
+  <test name="Test">
+    <classes>
+      <class name="Rengaraj_test_files.Tenantlogin"/>
+      <class name="Rengaraj_test_files.Loginpage"/>
+      <class name="Rengaraj_test_files.Apply_leave"/>
+      <class name="Rengaraj_test_files.Leavedetails_comparison"/>
+      <class name="Rengaraj_test_files.Halfday_leave_apply"/>
+      <class name="Rengaraj_test_files.Leavetracker_leavedays_verify"/>
+      <class name="Rengaraj_test_files.Leavedetails_comparison"/>
+      <class name="Rengaraj_test_files.Actionhistory_status"/>
+      <class name="Rengaraj_test_files.Imagevalidation_apply_leavepage_blank"/>
+      <class name="Rengaraj_test_files.LeaveCancellation"/>
+      <class name="Rengaraj_test_files.Leavetracker_requestcount_verify"/>
+      <class name="Rengaraj_test_files.Twolevelapprovalforleave"/>
+      <class name="Rengaraj_test_files.Weekend_Leave_Apply"/>
+      <class name="Rengaraj_test_files.Multi_Select_leave_Myapproval"/>
+      <class name="Rengaraj_test_files.ApprovedLeaveCancel"></class>
+      <class name="Rengaraj_test_files.Leave_Approver_Rejected"></class>
+      <class name="Rengaraj_test_files.Leave_tracker"></class>
+      <class name="Rengaraj_test_files.WithoutLeaveApply_Cancel_Button"></class>
+      <class name="Rengaraj_test_files.Multiple_days_leave_apply"></class>
+      <class name="Rengaraj_test_files.Leave_tracker_totalcount_verify"></class>
+      <class name="Rengaraj_test_files.Leave_myapproval_leavetype_filter"></class>
+      <class name="Rengaraj_test_files.Double_Half_Day"></class>
+      <class name="Rengaraj_test_files.Apply_leavepage_text_verify"></class>
+      <class name="Rengaraj_test_files.Available_Leave_Exced"></class>
+      
+      
+      
+      
+      <!-- <class name="modulestest.Practise"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
