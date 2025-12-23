@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Mobile_ezhour">
+<test name="Appium_test">
+<classes>
+
+<class name="Test_file.Apply_leave"></class>
+<class name="Test_file.Loginpage"></class>
+</classes>
+
+
+</test>
+
+</suite>
