@@ -14,9 +14,11 @@ import io.appium.java_client.service.local.AppiumServiceBuilder;
 
 public class Launchezhour {
 	
+	
 	public AppiumDriverLocalService service;
 	public AndroidDriver driver;
 
+	@SuppressWarnings("deprecation")
 	@BeforeClass
 	public void launch_application() throws MalformedURLException
 	{
