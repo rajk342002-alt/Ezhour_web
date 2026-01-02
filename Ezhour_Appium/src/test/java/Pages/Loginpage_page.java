@@ -1,8 +1,8 @@
+
 package Pages;
 
 import java.time.Duration;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
@@ -16,8 +16,7 @@ public class Loginpage_page {
 
     // Email field
     @AndroidFindBy(
-    	    xpath = "//android.widget.EditText"
-    	)
+    	    xpath = "//android.widget.EditText")
     	WebElement usermail_send;
 
 

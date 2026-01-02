@@ -6,8 +6,8 @@
       <class name="Test_file.Apply_leave">
         <methods>
           <include name="Leave_cancellation"/>
-          <include name="tear_down"/>
           <include name="launch_application"/>
+          <include name="tear_down"/>
           <include name="apply_leave"/>
         </methods>
       </class> <!-- Test_file.Apply_leave -->

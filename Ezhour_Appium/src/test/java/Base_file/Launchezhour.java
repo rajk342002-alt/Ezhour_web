@@ -35,7 +35,7 @@ public class Launchezhour {
 		UiAutomator2Options options=new UiAutomator2Options();
 		 options.setPlatformName("Android");
 	     options.setDeviceName("Raj");
-	     options.setApp("C:\\Users\\rengaraj\\eclipse-workspace\\Ezhour_Appium\\src\\test\\resources\\ezhour_apk\\Ezhour.apk");
+	     options.setApp("C:\\Users\\rengaraj\\git\\repository2\\Ezhour_Appium\\src\\test\\resources\\ezhour_apk\\Ezhour.apk");
 	     options.setCapability("enforceXPath1", true);
 
 				

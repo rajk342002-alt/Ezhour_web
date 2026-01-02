@@ -1,43 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-22T15:04:55 IST" name="Mobile_ezhour" finished-at="2025-12-22T15:07:00 IST" duration-ms="125097">
+  <suite started-at="2025-12-29T14:21:16 IST" name="Default suite" finished-at="2025-12-29T14:22:56 IST" duration-ms="100569">
     <groups>
     </groups>
-    <test started-at="2025-12-22T15:04:55 IST" name="Appium_test" finished-at="2025-12-22T15:07:00 IST" duration-ms="125097">
+    <test started-at="2025-12-29T14:21:16 IST" name="Default test" finished-at="2025-12-29T14:22:56 IST" duration-ms="100569">
       <class name="Test_file.Apply_leave">
-        <test-method is-config="true" signature="launch_application()[pri:0, instance:Test_file.Apply_leave@4d5d943d]" started-at="2025-12-22T15:04:55 IST" name="launch_application" finished-at="2025-12-22T15:05:14 IST" duration-ms="19249" status="PASS">
+        <test-method is-config="true" signature="launch_application()[pri:0, instance:Test_file.Apply_leave@7cc0cdad]" started-at="2025-12-29T14:21:16 IST" name="launch_application" finished-at="2025-12-29T14:21:51 IST" duration-ms="35412" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_application -->
-        <test-method signature="apply_leave()[pri:0, instance:Test_file.Apply_leave@4d5d943d]" started-at="2025-12-22T15:05:14 IST" name="apply_leave" finished-at="2025-12-22T15:06:11 IST" duration-ms="56886" status="PASS">
+        <test-method signature="apply_leave()[pri:0, instance:Test_file.Apply_leave@7cc0cdad]" started-at="2025-12-29T14:21:51 IST" name="apply_leave" finished-at="2025-12-29T14:22:45 IST" duration-ms="54336" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- apply_leave -->
-        <test-method signature="Leave_cancellation()[pri:0, instance:Test_file.Apply_leave@4d5d943d]" started-at="2025-12-22T15:06:11 IST" name="Leave_cancellation" finished-at="2025-12-22T15:06:21 IST" depends-on-methods="Test_file.Apply_leave.apply_leave" duration-ms="9422" status="PASS">
+        <test-method signature="Leave_cancellation()[pri:0, instance:Test_file.Apply_leave@7cc0cdad]" started-at="2025-12-29T14:22:45 IST" name="Leave_cancellation" finished-at="2025-12-29T14:22:55 IST" depends-on-methods="Test_file.Apply_leave.apply_leave" duration-ms="9308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Leave_cancellation -->
-        <test-method is-config="true" signature="tear_down()[pri:0, instance:Test_file.Apply_leave@4d5d943d]" started-at="2025-12-22T15:06:21 IST" name="tear_down" finished-at="2025-12-22T15:06:22 IST" duration-ms="1650" status="PASS">
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:Test_file.Apply_leave@7cc0cdad]" started-at="2025-12-29T14:22:55 IST" name="tear_down" finished-at="2025-12-29T14:22:56 IST" duration-ms="1437" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_down -->
       </class> <!-- Test_file.Apply_leave -->
-      <class name="Test_file.Loginpage">
-        <test-method is-config="true" signature="launch_application()[pri:0, instance:Test_file.Loginpage@55141def]" started-at="2025-12-22T15:06:22 IST" name="launch_application" finished-at="2025-12-22T15:06:35 IST" duration-ms="12473" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_application -->
-        <test-method signature="login()[pri:0, instance:Test_file.Loginpage@55141def]" started-at="2025-12-22T15:06:35 IST" name="login" finished-at="2025-12-22T15:06:59 IST" duration-ms="23929" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="tear_down()[pri:0, instance:Test_file.Loginpage@55141def]" started-at="2025-12-22T15:06:59 IST" name="tear_down" finished-at="2025-12-22T15:07:00 IST" duration-ms="1392" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tear_down -->
-      </class> <!-- Test_file.Loginpage -->
-    </test> <!-- Appium_test -->
-  </suite> <!-- Mobile_ezhour -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
